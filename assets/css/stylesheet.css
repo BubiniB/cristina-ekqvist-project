@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap');
 
+/* Remove default margin, padding and border */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +11,41 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    color: #594545;
+    background-color:#fff8ea;
+}
+
+h1 {
+    font-family: Lato, sans-serif;
+    color: #594545;
+}
+
+#logo {
+    font-size: 300%;
+    float: left;
+    color: #594545;
+}
+
+#navigation {
+    font-size: 150%;
+}
+
+#navigation li {
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #594545
+}
+
+#navigation a:hover {
+    background-color: #815B5B;
+    color: #fff8ea;
+}
+
+.active {
+    border-bottom: 2px solid #594545;
 }
