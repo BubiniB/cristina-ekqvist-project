@@ -33,8 +33,37 @@
             </ul>
         </nav>
     </header>
-    <section>
-        contact form
+    <!-- Showcase of making a contact form. Not active when deployed as of yet. -->
+    <section id="contact-form">
+        <form method="POST" action="#">
+            <h1>Want to get in touch? Please, fill in this form and I will get back to!</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <hr>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <hr>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone_number">
+            <hr>
+            <h2>Choose your preference:</h2>
+            
+            <input type="radio" id="contact-mail" name="contact_mail" required>
+            <label for="contact-mail">"Send me an email"</label>
+
+            <input type="radio" id="contact-phone" name="contact_phone" required>
+            <label for="contact-phone">"Give me a call"</label>
+
+            <input type="radio" id="contact-both" name="contact_both" required>
+            <label for="contact-both">"You choose! Both works fine!"</label>
+            <hr>
+
+            <input type="submit" class="submit" value="Send your contact information">
+
+        </form>
+        
     </section>
     <footer>
         <div>
