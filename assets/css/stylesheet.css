@@ -54,8 +54,7 @@ header {
 }
 
 #navigation a:hover {
-    background-color: #815B5B;
-    color: #fff8ea;
+    border-bottom: 2px solid #594545;
 }
 
 .active {
@@ -176,4 +175,6 @@ form > hr {
 
 .submit:hover {
     border-color: white;
+    background-color: #fff8ea;
+    color: #594545;
 }
