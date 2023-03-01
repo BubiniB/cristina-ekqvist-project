@@ -82,8 +82,11 @@ header {
     width: 66%;
     height: auto;
     float: right;
+    position: fixed;
+    right: 20px;
     background-color: rgba(158, 118, 118, .4);
     padding: 10px;
+    border-radius: 15px;
 }
 
 /* Footer for all pages */
@@ -120,7 +123,47 @@ div > hr {
     border-bottom: 2px solid #594545;
 }
 
-/* Table for CV */
+/* Tables for CV and education */
+
+#experience > div {
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(158, 118, 118, .4);
+    border-radius: 15px;
+}
+
+#experience h1 {
+    margin-bottom: 20px;
+}
+
+.cv {
+    text-align: center;
+}
+
+.cv th {
+    margin: 10px 40px;
+    padding: 10px;
+}
+
+.cv td {
+    margin: 10px 40px;
+    padding: 10px
+}
+
+#education > div {
+    width: fit-content;
+    height: fit-content;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(158, 118, 118, .4);
+    border-radius: 15px;
+}
+
+#education h1 {
+    margin-bottom: 20px;
+}
 
 /* Contact form */
 
