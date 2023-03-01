@@ -24,8 +24,9 @@ h1, h2 {
 
 header {
     display: block;
-    height: 300px;
+    height: 150px;
     width: 100%;
+    border-bottom: 5px solid #594545;
 }
 
 #logo {
@@ -64,7 +65,8 @@ header {
 /* About section index.html */
 
 #about {
-    height: 600px;
+    width: 100%;
+    height: 800px;
     padding-top: 30px;
     margin-left: 30px;
     margin-right: 60px;
@@ -90,7 +92,12 @@ header {
 footer {
     display: block;
     width: 100%;
-    height: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 50px;
+    border-top: 5px solid #594545;
 }
 
 footer > div {
@@ -114,6 +121,8 @@ div > hr {
     border-bottom: 2px solid #594545;
 }
 
+/* Table for CV */
+
 /* Contact form */
 
 #contact-form {
@@ -123,6 +132,7 @@ div > hr {
     max-width: fit-content;
     margin: 100px 30px;
     padding: 40px;
+    border-radius: 15px;
 }
 
 .input {
@@ -132,6 +142,7 @@ div > hr {
     height: 20px;
     padding: 5px;
     border: 2px solid #594545;
+    border-radius: 15px;
 }
 
 .input:hover {
@@ -159,6 +170,8 @@ form > hr {
     border: 2px solid #594545;
     background-color: #815B5B;
     color: #fff8ea;
+    border-radius: 15px;
+    font-size: 100%;
 }
 
 .submit:hover {
