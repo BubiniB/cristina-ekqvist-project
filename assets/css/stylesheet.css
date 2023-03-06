@@ -145,13 +145,14 @@ footer > .social {
 }
 
 .experience-cv {
-    width: 50%;
+    width: 65%;
     height: fit-content;
     margin: 50px auto;
     padding: 20px;
     background-color: rgba(158, 118, 118, .4);
     border-radius: 15px;
     border-color: #594545;
+    font-size: 110%;
 }
 
 #experience h1 {
@@ -162,14 +163,20 @@ footer > .social {
     text-align: center;
 }
 
+.table td, th {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #594545;
+}
+
 .experience-cv th {
-    margin: 10px 40px;
-    padding: 10px;
+    margin: 10px;
+    padding: 10px 40px;
 }
 
 .experience-cv td {
-    margin: 10px 40px;
-    padding: 10px
+    margin: 10px;
+    padding: 10px 40px;
 }
 
 .education {
