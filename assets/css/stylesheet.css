@@ -134,12 +134,7 @@ header {
     border-color: #594545;
 }
 
-.experience-cv th {
-    margin: 10px;
-    padding: 10px 40px;
-}
-
-.experience-cv td {
+.experience-cv th, td {
     margin: 10px;
     padding: 10px 40px;
 }
@@ -245,6 +240,110 @@ footer > .social {
 
 /* Media queries */
 
+/* For mobile phones screen size 600px wide and down*/
+@media screen and (max-width: 599px) {
+    header {
+        height: 120px;
+    }
+
+    #logo {
+        clear: both;
+        font-size: 200%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #navigation {
+        clear: both;
+        display: inline;
+        font-size: 120%;
+        margin-top: 10px;
+    }
+
+    #navigation li {
+        margin: 10px;
+    }
+}
+
+/* For small devices with screen size 600px wide and up*/
+@media screen and (min-width: 600px) {
+    header {
+        height: 110px; 
+    }
+
+    #logo {
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: 160%;
+    }
+
+    #navigation {
+        font-size: 100%;
+    }
+
+    #navigation li {
+        margin-right: 20px;
+        margin-top: 60px;
+    }
+
+    .experience-cv {
+        font-size: 90%;
+        margin: 30px auto;
+    }
+
+    .experience-cv th, td {
+        padding: 10px 5px;
+    }
+
+}
+
+/* For small screen sizes 800px wide and up */
+@media screen and (min-width: 800px) {
+    header {
+        height: 120px;
+    }
+
+    #logo {
+        margin-left: 20px;
+        margin-top: 45px;
+        font-size: 200%;
+    }
+
+    #navigation {
+        font-size: 110%;
+    }
+
+    .experience-cv {
+        width: 90%;
+        margin: 40px auto;
+        padding: 10px;
+    }
+}
+
+/* For medium screen sizes from 950px wide and up */
+@media screen and (min-width: 950px) {
+    #logo {
+        font-size: 250%;
+        margin-top: 40px;
+    }
+
+    #navigation {
+        font-size: 130%;
+    }
+
+    #navigation li {
+        margin-right: 30px;
+    }
+
+    .experience-cv {
+        font-size: 100%;
+    }
+
+    #contact-me-image {
+        background: url(../images/contact-me.jpeg) no-repeat center top;
+    }
+}
+
 /* For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #content-center {
@@ -261,49 +360,7 @@ footer > .social {
     }
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #logo {
-        font-size: 250%;
-        margin-top: 40px;
-    }
 
-    #navigation {
-        font-size: 130%;
-        margin-right: 30px;
-    }
 
-    .experience-cv {
-        font-size: 100%;
-    }
 
-    #contact-me-image {
-        background: url(../images/contact-me.jpeg) no-repeat center top;
-    }
-}
 
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
-    header {
-        height: 120px;
-    }
-
-    #logo {
-        margin-left: 20px;
-        font-size: 200%;
-    }
-
-    #navigation {
-        font-size: 110%;
-    }
-
-    .experience-cv {
-        width: 90%;
-        margin: 40px auto;
-        padding: 10px;
-    }
-
-    .contact-me-image {
-        background: url(../images/contact-me.jpeg) no-repeat center top;
-    }
-}
