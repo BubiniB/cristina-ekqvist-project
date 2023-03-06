@@ -246,3 +246,64 @@ footer > .social {
 /* Media queries */
 
 /* For larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #content-center {
+        width: 80%;
+        font-size: 140%;
+    }
+
+    #experience-img {
+        background: url(../images/experience-img.jpg) no-repeat center center;
+    }
+
+    .experience-cv {
+        width: 80%;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #logo {
+        font-size: 250%;
+        margin-top: 40px;
+    }
+
+    #navigation {
+        font-size: 130%;
+        margin-right: 30px;
+    }
+
+    .experience-cv {
+        font-size: 100%;
+    }
+
+    #contact-me-image {
+        background: url(../images/contact-me.jpeg) no-repeat center top;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    header {
+        height: 120px;
+    }
+
+    #logo {
+        margin-left: 20px;
+        font-size: 200%;
+    }
+
+    #navigation {
+        font-size: 110%;
+    }
+
+    .experience-cv {
+        width: 90%;
+        margin: 40px auto;
+        padding: 10px;
+    }
+
+    .contact-me-image {
+        background: url(../images/contact-me.jpeg) no-repeat center top;
+    }
+}
