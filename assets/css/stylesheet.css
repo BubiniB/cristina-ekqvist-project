@@ -74,21 +74,11 @@ header {
     height: 1020px;
 }
 
-#content-left {
-    width: 20%;
-    height: auto;
-    float: left;
-    box-sizing: border-box;
-    margin-top: 400px;
-    margin-left: 10px;
-}
-
 #content-right {
     width: 50%;
     height: auto;
-    float: right;
     background-color: rgba(158, 118, 118, .4);
-    margin: 400px 20px 0 0;
+    margin: 400px auto;
     padding: 30px;
     border-radius: 15px;
     box-sizing: border-box;
