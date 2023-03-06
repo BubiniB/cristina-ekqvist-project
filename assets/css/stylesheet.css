@@ -96,6 +96,7 @@ header {
 
 #content-center ul {
     list-style-type: none;
+    font-weight: bold;
 }
 
 /* Tables for CV and education */
