@@ -23,15 +23,13 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 
 - __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page has a background image to build contrasts with the webpage's color scheme and to give a more harmonius feel. For me it was important to have a landing page that does not overwhelm visitors and is easy on the eye and to understand. 
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Get to know me! - section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section is supposed to be a short introduction of myself and of what this webpage is all about. The intention is that visitors will be curious to explore the rest of the page after taking in the information and hopefully try to make contact with me. I have chosen to
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 

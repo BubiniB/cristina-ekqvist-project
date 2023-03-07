@@ -349,8 +349,10 @@ footer > .social {
     }
 
     #navigation {
-        font-size: 110%;
+        font-size: 100%;
     }
+
+    
 
     #content-center {
         width: 95%;
@@ -364,7 +366,7 @@ footer > .social {
     }
 
     .experience-cv {
-        width: 92%;
+        width: 90%;
         font-size: 90%;
         margin: 15px auto;
     }
