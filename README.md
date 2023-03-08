@@ -16,8 +16,10 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 
 - __Navigation Bar__
 
-  - My navigation bar is present on all pages and includes linksFeatured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - My navigation bar is present on all pages and includes links to Home, Experience, Portfolio and Contact. Additionally visitors will be able to get back to the landing page when clicking on the logo.
+  - There is a hover function, which allows visitors to see which page they are about to visit.
+  - The page visitors are currently at is underlined so that they know where they are.
+  - The navigation bar is fully responsive and changes when looking at the page on smaller devices.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
@@ -25,40 +27,50 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 
   - The landing page has a background image to build contrasts with the webpage's color scheme and to give a more harmonius feel. For me it was important to have a landing page that does not overwhelm visitors and is easy on the eye and to understand. 
 
+- __Welcome - section__
+  - There is a "Welcome" section, which very briefly states who I am as a means of marketing myself. This section is placed under the logo to draw the attention of visitors.
+
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Get to know me! - section__
 
-  - This section is supposed to be a short introduction of myself and of what this webpage is all about. The intention is that visitors will be curious to explore the rest of the page after taking in the information and hopefully try to make contact with me. I have chosen to
+  - This section is supposed to be a short introduction of my professional self and of what this webpage is all about. The intention is that visitors will be curious to explore the rest of the page after taking in the information and hopefully try to make contact with me. I have chosen to center the section and give it breathing room on wider screens so that it is easier for visitors to read and process the information.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Personal - section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The "Personal" section is supposed to give a little bit of personal information for those visitors who might be interested. It is a way of making me more approachable at the same time as it is not supposed to take away any focus of my main goal: keeping it professional. As it is not the main focus of the page, I have chosen to put this section in right bottom corner of the page on wider screens (alternatively last in order of all sections). This way I can keep symmetry on the landing page.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is supposed to be a constant reminder of my personal contact information. Should a visitor be interested in taking contact after reading information on any of the pages, it should be easy for them to do just that. This is why the footer shows on every page.
+  - The footer includes also a link to my professional social media account (LinkedIn) in case visitors prefer to reach out to me on that platform instead. This way they can also get a chance to look at my resume on another format.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __Experience__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The "Experience" page is supposed to give visitors insight into my prior career and education. It acts as a summarized CV, showing a little bit of my skills prior learning how to code. The aim of this page is to further market myself by giving the standard written information.
+  - The page is divided in 3 tables:
+    * "My CV": a classic condensed CV,
+    * "Skills and experience": a short summary of everything I have worked with/know,
+    * "Education": showing that I have a university degree before starting a new career.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __Portfolio__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page is under construction and omitted for this project due to pressing deadlines. The aim is to showcase my newly developed skills and catch visitors attention. I have added a temporary background image to show that more is yet to come.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+- __Contact__
+
+  - The "Contact" page is supposed to be a showcase of me knowing how to create contact forms. The aim is to have it working fully by letting visitors send their contact information, providing an additional way of reaching out.
+  - I chose to add a background image to improve the look of the page, keeping the color scheme in mind.
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -66,7 +78,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- As mentioned before, I would like to add my future projects on the portfolio page. I would like build a little showcase of all the projects that lets visitors interact with each project.
+- I would like to be able to create a "working" contact form, which can send the information visitors leave directly to me.
 
 ## Testing 
 
