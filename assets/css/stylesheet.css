@@ -119,13 +119,13 @@ header {
     background: url(../images/experience-img.jpg) no-repeat;
     overflow: hidden;
     object-fit: cover;
-    background-color: #3a3a3a;
+    background-color: white;
 }
 
 .experience-cv {
-    width: 65%;
+    width: 80%;
     height: fit-content;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 20px;
     background-color: rgba(158, 118, 118, .9);
     color: #fff8ea;
@@ -150,11 +150,15 @@ header {
 
 .experience-cv th, td {
     margin: 10px;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 .education {
     width: fit-content;
+}
+
+.table ul {
+    list-style-type: none;
 }
 
 /* Portfolio background image for the time being */
@@ -281,6 +285,10 @@ footer > .social {
     .experience-cv {
         width: 80%;
     }
+
+    .skills {
+        width: fit-content;
+    }
 }
 
 /* For medium screen sizes from 992px wide and down */
@@ -308,6 +316,10 @@ footer > .social {
         width: 95%;
         margin: 20px auto;
         padding: 10px;
+    }
+
+    .skills {
+        width: fit-content;
     }
 
     .contact-me-image {
@@ -356,9 +368,13 @@ footer > .social {
     }
 
     .experience-cv {
-        width: 97%;
+        width: 90%;
         margin: 5px auto;
         padding: 10px;
+    }
+
+    .skills {
+        width: fit-content;
     }
 
     .contact-me-image {
@@ -412,6 +428,11 @@ footer > .social {
 
     .experience-cv th, td {
         padding: 10px 5px;
+    }
+
+    .skills {
+        width: fit-content;
+        font-size: 87%;
     }
 
     #contact {
