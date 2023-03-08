@@ -295,7 +295,7 @@ footer > .social {
     }
 
     #experience-img {
-        background: url(../images/experience-img.jpg) no-repeat center center;
+        background-position: center center;
     }
 
     .experience-cv {
@@ -339,7 +339,7 @@ footer > .social {
     }
 
     .contact-me-image {
-        background: url(../images/contact-me.jpeg) no-repeat center top;
+        background-position: center top;
     }
 }
 
@@ -375,6 +375,10 @@ footer > .social {
         display: inline;
     }
 
+    #about {
+        background-position: left;
+    }
+
     #welcome-text {
         width: 40%;
     }
@@ -398,7 +402,7 @@ footer > .social {
     }
 
     .contact-me-image {
-        background: url(../images/contact-me.jpeg) no-repeat center top;
+        background-position: center top;
     }
 }
 
@@ -421,6 +425,10 @@ footer > .social {
 
     #navigation {
         font-size: 100%;
+    }
+
+    #about {
+        background-position: center;
     }
 
     #welcome-text {
