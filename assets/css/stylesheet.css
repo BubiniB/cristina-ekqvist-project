@@ -254,6 +254,10 @@ footer > .social {
 
 /* For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    #welcome-text {
+        width: 50%;
+    }
+    
     #content-center {
         width: 80%;
         font-size: 140%;
@@ -332,6 +336,14 @@ footer > .social {
         display: inline;
     }
 
+    #welcome-text {
+        width: 40%;
+    }
+
+    #content-center {
+        margin: 100px auto;
+    }
+
     .experience-cv {
         width: 97%;
         margin: 5px auto;
@@ -364,9 +376,15 @@ footer > .social {
         font-size: 100%;
     }
 
+    #welcome-text {
+        width: 80%;
+        margin: 20px auto;
+    }
+
     #content-center {
         width: 95%;
         font-size: 110%;
+        margin: 80px auto;
     }
 
     #experience > #experience-img {
