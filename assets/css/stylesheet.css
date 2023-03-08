@@ -488,6 +488,11 @@ footer > .social {
         background: url(../images/contact-me.jpeg) no-repeat;
     }
 
+    .submit {
+        padding: 10px 20px;
+        font-size: 90%;
+    }
+
     #coming-soon {
         background: url(../images/coming-soon-small.jpg) no-repeat center center;
         overflow: hidden;
