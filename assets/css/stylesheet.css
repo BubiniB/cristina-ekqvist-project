@@ -67,18 +67,20 @@ header {
 /* About section index.html */
 
 #about {
-    background: url(../images/about-img.jpg) no-repeat center center;
+    background: url(../images/about-img.jpg) no-repeat right;
     object-fit: cover;
     overflow: hidden;
+    background-color: white;
     width: 100%;
-    height: 1020px;
+    height: auto;
 }
 
 #content-center {
     width: 50%;
     height: auto;
-    background-color: rgba(158, 118, 118, .4);
-    margin: 400px auto;
+    background-color: rgba(158, 118, 118, .9);
+    color: #fff8ea;
+    margin: 150px auto;
     padding: 30px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -351,8 +353,6 @@ footer > .social {
     #navigation {
         font-size: 100%;
     }
-
-    
 
     #content-center {
         width: 95%;
