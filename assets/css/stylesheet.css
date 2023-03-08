@@ -90,7 +90,7 @@ header {
     height: auto;
     background-color: rgba(158, 118, 118, .9);
     color: #fff8ea;
-    margin: 150px auto;
+    margin: 130px auto;
     padding: 30px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -109,6 +109,18 @@ header {
 #content-center ul {
     list-style-type: none;
     font-weight: bold;
+}
+
+#personal {
+    width: 30%;
+    height: auto;
+    float: right;
+    color: #fff8ea;
+    background-color: rgba(158, 118, 118, .9);
+    margin: 0 50px 20px 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 /* Tables for CV and education */
@@ -278,6 +290,10 @@ footer > .social {
         font-size: 140%;
     }
 
+    #personal {
+        width: 50%;
+    }
+
     #experience-img {
         background: url(../images/experience-img.jpg) no-repeat center center;
     }
@@ -363,6 +379,10 @@ footer > .social {
         width: 40%;
     }
 
+    #personal {
+        width: 50%;
+    }
+
     #content-center {
         margin: 100px auto;
     }
@@ -412,6 +432,12 @@ footer > .social {
         width: 95%;
         font-size: 110%;
         margin: 80px auto;
+    }
+
+    #personal {
+        float: none;
+        width: 80%;
+        margin: 20px auto;
     }
 
     #experience > #experience-img {
