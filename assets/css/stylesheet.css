@@ -90,7 +90,7 @@ header {
     height: auto;
     background-color: rgba(158, 118, 118, .9);
     color: #fff8ea;
-    margin: 130px auto;
+    margin: 110px auto;
     padding: 30px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -135,9 +135,9 @@ header {
 }
 
 .experience-cv {
-    width: 80%;
+    width: 90%;
     height: fit-content;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: rgba(158, 118, 118, .9);
     color: #fff8ea;
