@@ -75,6 +75,16 @@ header {
     height: auto;
 }
 
+#welcome-text {
+    width: 30%;
+    height: auto;
+    background-color: rgba(158, 118, 118, .9);
+    margin: 50px 10px 0 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px; 
+}
+
 #content-center {
     width: 50%;
     height: auto;
