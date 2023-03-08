@@ -157,6 +157,15 @@ header {
     width: fit-content;
 }
 
+/* Portfolio background image for the time being */
+
+#coming-soon {
+    width: 100%;
+    height: 1020px;
+    background: url(../images/coming-soon.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
 /* Contact form */
 
 #contact {
@@ -422,5 +431,11 @@ footer > .social {
     }
     .contact-me-image {
         background: url(../images/contact-me.jpeg) no-repeat;
+    }
+
+    #coming-soon {
+        background: url(../images/coming-soon-small.jpg) no-repeat center center;
+        overflow: hidden;
+        height: 420px;
     }
 }
