@@ -92,8 +92,25 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 
 - __Responsiveness__
 
-  - A couple of examples of iPhone 5 screen size
+  - Responsiveness has been tested in DevTools in order to be able to test on as many devices and screen sizes as possible.
 
+  - A couple of examples of iPhone 5 screen size (320 x 568)
+
+    - ![Landing page - iPhone 5](/assets/images/iphone5-landing-page.png)
+    - ![Experience page - iPhone 5](/assets/images/iphone5-experience.png)
+    - ![Portfolio page - iPhone 5](/assets/images/iphone5-portfolio.png)
+    - ![Contact page - iPhone 5](/assets/images/iphone5-contact-form.png)
+
+  - A couple of examples of iPad screen size (768 x 1024)
+
+    - ![Landing page - iPad](/assets/images/ipad-landing-page.png)
+    - ![Experience page - iPad](/assets/images/ipad-experience.png)
+    - ![Portfolio page - iPad](/assets/images/ipad-portfolio.png)
+    - ![Contact page - iPad](/assets/images/ipad-contact.png)
+  
+  - Summary of testing, summarized in a table
+
+    - ![Responsiveness tests](/assets/images/responsivenss-summary.png)
 
 ### Validator Testing 
 
