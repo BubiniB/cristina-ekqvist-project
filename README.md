@@ -162,7 +162,7 @@ The live link can be found here - https://bubinib.github.io/cristina-ekqvist/ind
 
 ### Code - Coding help
 
-- Inspiration from the "Love running" project was taken while creating the header.
+- Inspiration from the ["Love running"](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/02-creating-the-header/05-navigation-styling-2) project was taken while creating the header.
 - When changing the style and layout (changing the order of the links) of the header/navigation bar on smaller screen sizes I found help on [Stack Overflow](https://stackoverflow.com/questions/39217732/is-it-possible-to-change-the-order-of-list-items-using-css3) 
 - When trying to change background image positions I found help on W3Schools [W3Schools](https://www.w3schools.com/cssref/pr_background-position.php).
 - I looked up how to implement media queries on [W3School Media queries](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) and [W3Schools Examples on media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).
