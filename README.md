@@ -112,62 +112,73 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 
     - ![Responsiveness tests](/assets/images/responsivenss-summary.png)
 
+- __Bugs__
+
+  - No bugs were found while programming this webpage. 
+
+- __Browser Compatibility__
+
+  - I tested the page on Chrome, Edge, Firefox and Opera. I do not have access to Safari and can therefore not test it on that browser.
+  - Firefox seems to have problems displaying the chosen fonts.
+
+  ![Browser compatibility](/assets/images/browser-compatibility.png)
+
+- __Lighthouse__
+
+  - Performance test for desktop (Portfolio was omitted)
+    - ![Lighthouse desktop index.html](/assets/images/performance-desktop-index.png)
+    - ![Lighthouse desktop experience.html](/assets/images/performance-desktop-experience.png)
+    - ![Lighthouse desktop contact.html](/assets/images/performance-desktop-contact.png)
+
+   - Performance test for mobile (Portfolio was omitted)
+    - ![Lighthouse mobile index.html](/assets/images/performance-mobile-index.png)
+    - ![Lighthouse mobile experience.html](/assets/images/performance-mobile-experience.png)
+    - ![Lighthouse mobile contact.html](/assets/images/performance-mobile-contact.png)
+
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official W3C validator. Tested all pages [W3C validator for all pages](/assets/images/w3c-html.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official W3C CSS validator [(Jigsaw) validator](/assets/images/w3c-css.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There are no unfixed bugs. 
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Select "Pages" on the left side bar.
+  - Source should be set to "Deploy from a branch" and branch should be set to "main" and folder to "/root".
+  - Click on save and wait for page to be deployed (can take several minutes).
+  - Refresh page and the link should appear on the top of the 'GitHub pages' page.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://bubinib.github.io/cristina-ekqvist/index.html 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Code - Coding help
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- Inspiration from the "Love running" project was taken while creating the header.
+- When changing the style and layout (changing the order of the links) of the header/navigation bar on smaller screen sizes I found help on [Stack Overflow](https://stackoverflow.com/questions/39217732/is-it-possible-to-change-the-order-of-list-items-using-css3) 
+- When trying to change background image positions I found help on W3Schools [W3Schools](https://www.w3schools.com/cssref/pr_background-position.php).
+- I looked up how to implement media queries on [W3School Media queries](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) and [W3Schools Examples on media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).
+- I generated my GitHub and GitPod from the [Code Institute GitPod template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icon in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were taken from [Google Fonts](https://fonts.google.com/)
+- I used Code Institutes template for creating this README. [README template](https://github.com/Code-Institute-Solutions/readme-template).
+- I took inspiration for my color scheme from [Colorhunt](https://colorhunt.co/palettes/earth).
+- I took inspiration on how I want my page to look like (style and layout) from an article on [Wixfresh](https://www.wixfresh.com/post/resume-websites).
+- I went to [Elementor](https://elementor.com/blog/font-pairing/) in order to find a good combination of different fonts.
+
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- All background images used for this webpage were taken from [Pexels](https://www.pexels.com/sv-se/)
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
