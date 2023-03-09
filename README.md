@@ -1,8 +1,8 @@
 # Cristina Ekqvist - Personal resume website
 
-Cristina Ekqvist is my professional resume website that aspires to showcase my new skillsets in the field of coding and at the same time give a short and concise summary of my professional background. This site is primarily targeted towards potential new employers and is supposed to be updated as my skills improve and more is to showcase. 
+Cristina Ekqvist is my professional resume website that aspires to showcase my new skillsets in the field of coding and at the same time give a short and concise summary of my professional background. This site is primarily targeted towards potential new employers and is supposed to be updated as my skills improve and more is to showcase. The page is fully responsive but is best enjoyed on desktop size screens.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsivness Mockup](/assets/images/responsiveness-showcase.png)
 
 ## Features 
 
@@ -21,7 +21,8 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
   - The page visitors are currently at is underlined so that they know where they are.
   - The navigation bar is fully responsive and changes when looking at the page on smaller devices.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/assets/images/nav-bar.png)
+(On this screenshot I have my mouse hovering over experience, the cursor does not show when taking screenshots)
 
 - __The landing page__
 
@@ -30,26 +31,26 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
 - __Welcome - section__
   - There is a "Welcome" section, which very briefly states who I am as a means of marketing myself. This section is placed under the logo to draw the attention of visitors.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/images/landing-page.png)
 
 - __Get to know me! - section__
 
   - This section is supposed to be a short introduction of my professional self and of what this webpage is all about. The intention is that visitors will be curious to explore the rest of the page after taking in the information and hopefully try to make contact with me. I have chosen to center the section and give it breathing room on wider screens so that it is easier for visitors to read and process the information.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Get to know me!](/assets/images/get-to-know-me.png)
 
 - __Personal - section__
 
   - The "Personal" section is supposed to give a little bit of personal information for those visitors who might be interested. It is a way of making me more approachable at the same time as it is not supposed to take away any focus of my main goal: keeping it professional. As it is not the main focus of the page, I have chosen to put this section in right bottom corner of the page on wider screens (alternatively last in order of all sections). This way I can keep symmetry on the landing page.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Let's get personal!](/assets/images/personal.png)
 
 - __The Footer__ 
 
   - The footer is supposed to be a constant reminder of my personal contact information. Should a visitor be interested in taking contact after reading information on any of the pages, it should be easy for them to do just that. This is why the footer shows on every page.
-  - The footer includes also a link to my professional social media account (LinkedIn) in case visitors prefer to reach out to me on that platform instead. This way they can also get a chance to look at my resume on another format.
+  - The footer includes also a link to my professional social media account (LinkedIn) in case visitors prefer to reach out to me on that platform instead. This way they can also get a chance to look at my resume on another format. The link opens in another tab.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/images/footer.png)
 
 - __Experience__
 
@@ -59,7 +60,9 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
     * "Skills and experience": a short summary of everything I have worked with/know,
     * "Education": showing that I have a university degree before starting a new career.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Experience CV Table](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Experience Skills Table]
+![Experience Education Table]
 
 - __Portfolio__
 
@@ -83,13 +86,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- __Responsiveness__
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  - A couple of examples of iPhone 5 screen size
 
 
 ### Validator Testing 
