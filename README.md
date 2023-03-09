@@ -60,24 +60,28 @@ The portfolio page is as of now empty due to pressing deadlines but will be upda
     * "Skills and experience": a short summary of everything I have worked with/know,
     * "Education": showing that I have a university degree before starting a new career.
 
-![Experience CV Table](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-![Experience Skills Table]
-![Experience Education Table]
+![Experience CV Table](/assets/images/experience-cv.png)
+![Experience Skills and Education Table](/assets/images/skills-and-education.png)
 
 - __Portfolio__
 
-  - This page is under construction and omitted for this project due to pressing deadlines. The aim is to showcase my newly developed skills and catch visitors attention. I have added a temporary background image to show that more is yet to come.
+  - This page is under construction and omitted for this project due to lack of showcase material. The aim is to showcase my newly developed skills and catch visitors attention. I have added a temporary background image to show that more is yet to come.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Portfolio](/assets/images/portfolio.png)
+![Coming Soon](/assets/images/portfolio-coming-soon.png)
+(Only the background image)
 
 - __Contact__
 
-  - The "Contact" page is supposed to be a showcase of me knowing how to create contact forms. The aim is to have it working fully by letting visitors send their contact information, providing an additional way of reaching out.
+  - The "Contact" page is supposed to be a showcase of me knowing how to create contact forms. The aim is to have it working fully by letting visitors send their contact information, providing an additional way of reaching out, which is something I wish to implement in the future.
   - I chose to add a background image to improve the look of the page, keeping the color scheme in mind.
+  - All fields are required.
+  - The input fields are highlighted when hovering over them, as well as the submit button.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Contact](/assets/images/contact.png)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact](/assets/images/contact-form.png)
+(When trying to submit the form without filling in the input fields)
 
 ### Features Left to Implement
 
