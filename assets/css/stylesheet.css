@@ -299,7 +299,11 @@ footer > .social {
     }
 
     .experience-cv {
-        width: 80%;
+        width: 90%;
+    }
+
+    .education {
+        width: fit-content;
     }
 
     .skills {
